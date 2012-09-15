@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Page url:</b>
+  <%= @clip.page_url %>
+</p>
+
+<p>
+  <b>Download url:</b>
+  <%= @clip.download_url %>
+</p>
+
+<p>
+  <b>Synopsis:</b>
+  <%= @clip.synopsis %>
+</p>
+
+
+<%= link_to 'Edit', edit_clip_path(@clip) %> |
+<%= link_to 'Back', clips_path %>
